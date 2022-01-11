@@ -1,5 +1,5 @@
 # SecretSanta
-This one goes out to all of those who wished the process of picking names for Secret Santa was more efficient.
+This one goes out to all of those who wished the process of picking names for Secret Santa was cooler and more efficient.
 
 ## What it does
 TL;DR this program randomly assigns a group of people a secret santa and anonymously texts each person who they recieved along with their wish list.
@@ -14,3 +14,9 @@ After each person is assigned a secret santa, they are texted the name of the pe
 A connected Google Sheet document containing the First Name, Last Name, Wish List, and Phone Numbers of each person is read, and corresponding *Person* objects are created.
 These *Person* objects are pushed into a list called *personList*. Each *person* object in *personList* will randomly be assigned another *person* object following the rules
 specified above. After all *person* objects have been assigned, each *person* is texted the information of the person they have been assigned.
+
+## Usability
+To use the program, you must have a working Twilio account that you can set up [here](https://www.twilio.com/docs/sms). When set up, you can enter your *account_sid*, *auth_token*, and *from_* into the corresponding spots in **main.py**.
+
+Additionally, you will need to set up Google Sheets to work with your program with instructions [here](https://www.youtube.com/watch?v=bu5wXjz2KvU&ab_channel=PrettyPrinted).
+When set up, you need to format a worksheet in the following manner:
