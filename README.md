@@ -24,7 +24,16 @@ When set up, you need to format a worksheet in the following manner:
 - Column 2: **Last Name**
 - Column 3: **Wish List**
 - Column 4: **Phone Number**
+
 Additionally, all rows below the last row with information must be deleted.
 
 Here is an example of a properly formatted worksheet:
 ![SecretSanta_worksheet](https://user-images.githubusercontent.com/56098325/149064533-5a772b79-753f-4c35-859e-60521d00ecf8.png)
+
+#### Notes
+When setting up and using the program, one may be wary of some of the following notes:
+- The algorithm will only work properly if the number of members for each family is less than or equal to half of the total number of participants
+  - If a family has total members greater than half of the number of participants, then at least one person in this family will have to be assigned someone within their own
+    family, which breaks Rule 1
+- It is advised to wait at least a minute before running the program consecutively
+  - This is due to a limit on consecutive calls to Google Sheets
