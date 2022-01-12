@@ -20,3 +20,11 @@ To use the program, you must have a working Twilio account that you can set up [
 
 Additionally, you will need to set up Google Sheets to work with your program with instructions [here](https://www.youtube.com/watch?v=bu5wXjz2KvU&ab_channel=PrettyPrinted).
 When set up, you need to format a worksheet in the following manner:
+- Column 1: **First Name**
+- Column 2: **Last Name**
+- Column 3: **Wish List**
+- Column 4: **Phone Number**
+Additionally, all rows below the last row with information must be deleted.
+
+Here is an example of a properly formatted worksheet:
+![SecretSanta_worksheet](https://user-images.githubusercontent.com/56098325/149064533-5a772b79-753f-4c35-859e-60521d00ecf8.png)
