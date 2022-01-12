@@ -8,6 +8,7 @@ From a list of people, each person is randomly assigned another person to be the
 1. A person CAN NOT be a secret santa for someone within their own family (e.g. John Doe cannot get Jane Doe)
 2. A person CAN NOT be chosen more than once
 3. A person CAN NOT be their own secret santa
+
 After each person is assigned a secret santa, they are texted the name of the person that they will be giving a gift to, along with that person's wish list.
 
 ## How it works
@@ -19,6 +20,7 @@ specified above. After all *person* objects have been assigned, each *person* is
 To use the program, you must have a working Twilio account that you can set up [here](https://www.twilio.com/docs/sms). When set up, you can enter your *account_sid*, *auth_token*, and *from_* into the corresponding spots in **main.py**.
 
 Additionally, you will need to set up Google Sheets to work with your program with instructions [here](https://www.youtube.com/watch?v=bu5wXjz2KvU&ab_channel=PrettyPrinted).
+
 When set up, you need to format a worksheet in the following manner:
 - Column 1: **First Name**
 - Column 2: **Last Name**
